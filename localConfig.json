@@ -236,6 +236,12 @@
                   }
               }, "Home", "FeatureEditor",
               {
+                "name": "WFSDownload",
+                "cfg": {
+                  "disablePluginIf": "{state('user') ? false : true}"
+                }
+              },
+              {
                 "name": "QueryPanel",
                 "cfg": {
                     "activateQueryTool": true,
